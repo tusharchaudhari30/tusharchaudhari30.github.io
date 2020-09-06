@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Tushar Chaudhari</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/kube.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/custom.min.css" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'Tushar';
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+					<span class="logo">Tushar Chaudhari</span>
+				</div>
+				<nav id="navbar-1" class="navbar item-nav">
+					<ul>
+						<li class="active"><a href="#about">About</a></li>
+						<li><a href="#experiences">Experiences</a></li>
+						<li><a href="#achievements">Achievements</a></li>
+						<li><a href="#skills">Skills</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Tushar Chaudhari</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I code in<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					I have been working with web development since 2017,
+					the period during which I have worked in different
+					environments, from mini project to university project . I am a
+					self-motivated and self-taught programmer who likes to solve
+					problems.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>July 2020</li>
+				<li><a href="#">Project Management System</a></li>
+				<li>This is a centralized, highly customizable project management system.
+					All projects are logged into a central database and each one goes
+					through a number of workflows (processes). Workflows control the
+					status of the project as well as the rules by which it transitions to other
+					statuses. It is built using Microservices, ReactJs, Spring Boot, Netflix
+					OSS stack with Oauth2 server.</li>
+			</ul>
+			<ul class="work-list">
+				<li>May 2020</li>
+				<li><a href="#">Paper Chat Web App</a></li>
+				<li>The project is the demonstration of how to implement reactive dom
+					which changes without touching the refresh. The best feature of using
+					this is you don't need to use Single page application such as React or
+					Angular you can do it with just small code of plain Javascript. This
+					application is not Single page application which result in low
+					dependency size and good performance. This project utilizes concept
+					of Server Sent event with thymleaf support to reactive streams.
+					Various aspect where you can implement is given bellow.</li>
+			</ul>
+			<ul class="work-list">
+				<li>Jun 2019</li>
+				<li><a href="#">Online College Certificate Generation</a></li>
+				<li>The Project is final year Project for diploma and engineering student.
+					This Project help student to learn the basics about Spring web-MVC
+					and hibernate. College Student Online Certificate Generation Project
+					can be used by the College to Manage Students Data and save human
+					efforts of creating certificates. This Project helps to track record of
+					certificate and maintain college rules.</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Award & Achievements -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Certificate &amp;<br>Achievements</h1>
+			<ul class="award-list list-flat">
+				<li>May 2020</li>
+				<li>Oracle Cloud Infrastructure 2019
+					Certified Architect Professional</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>May 2020</li>
+				<li>Oracle Autonomous Database Cloud
+					2019 Certified Specialist</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>May 2020</li>
+				<li>Oracle Cloud Infrastructure 2019
+					Certified Architect Associate</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>May 2020</li>
+				<li>Oracle Cloud Infrastructure
+					Foundations 2020 Certified Associate</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical<br>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML / CSS / Javascript / Python / Java </li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>MySQL / MongoDB / Oracle / Access</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Framework</li>
+				<li>Spring Cloud, React,
+					Hibernate, Thymeleaf Oauth2,
+					Eureka, Zuul, Hytrix.</li>
+			</ul>
+		</div>
+	</div>
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+	<script src="js/kube.min.js"></script>
+	<script src="js/site.js"></script>
+	<script>
+		function newTyped() {}
+		$(function () {
+			$("#typed").typed({
+				// Change to edit type effect
+				strings: ["Java", "Microservices", "Javascript"],
+
+				typeSpeed: 90,
+				backDelay: 700,
+				contentType: "html",
+				loop: !0,
+				resetCallback: function () {
+					newTyped()
+				}
+			}), $(".reset").click(function () {
+				$("#typed").typed("reset")
+			})
+		});
+	</script>
+</body>
+
+</html>
