@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: tusharchaudhari30.github.io
+Token: 07fb1589d1caba22cf516039ca3c38558c1f13b523f3d0bd4f1cd0500837e3e3
